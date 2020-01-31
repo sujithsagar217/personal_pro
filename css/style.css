@@ -125,12 +125,13 @@ p {
 }
 
 .icons_credit {
-  margin: 20px auto 10px auto;
+  margin: 5px auto 2px auto;
+  font-size: 0.8rem;
 }
 
 .footer_link {
-  font-size: 1.3rem;
-  margin: 0 10px 5px 10px;
+  font-size: 0.9rem;
+  margin: 0 5px 2px 5px;
 }
 
 .footer_link:hover {
@@ -139,7 +140,7 @@ p {
 
 .footer_paragraph{
   display: inline;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
  .profile{
    width: 40%;
