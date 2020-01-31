@@ -51,11 +51,24 @@ a {
 img {
   margin: 0 auto 0 auto;
 }
+.top-cloud {
+  position: relative;
+  left: 30%;
+  bottom: 20px;
+}
+
+.bottom-cloud {
+  position: relative;
+  right: 30%;
+  top: 30px;
+}
+
 
 .top_container {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 90px;
+  padding-bottom: 60px;
 }
 
 .in_contact{
@@ -137,15 +150,4 @@ p {
 }
 td{
   padding: 10px;
-}
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
 }
