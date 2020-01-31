@@ -85,13 +85,37 @@ img {
 .middle_container {
   background-color: #f1fcfc;
   margin: 0 0 0 0;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .bottom_container {
   background-color: #EAF6F6;
   margin: 0 0 0 0;
   padding-top: 10px;
+}
+
+.contact_button{
+  text-align: center;
+  color: white;
+  background-color: #66BFBF;
+  padding: 10px 15px 10px 15px;
+  margin: 10px;
+  border-radius: 5%;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.contact_button:hover{
+  text-align: center;
+  color: white;
+  background-color: #66BFBF;
+  padding: 10px 15px 10px 15px;
+  margin: 10px;
+  border-radius: 5%;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -135,28 +159,4 @@ p {
 }
 td{
   padding: 10px;
-}
-
-.contact_button{
-  text-align: center;
-  color: white;
-  background-color: #66BFBF;
-  padding: 10px 15px 10px 15px;
-  margin: 10px;
-  border-radius: 5%;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-}
-
-.contact_button:hover{
-  text-align: center;
-  color: white;
-  background-color: #66BFBF;
-  padding: 10px 15px 10px 15px;
-  margin: 10px;
-  border-radius: 5%;
-  border: 2px solid black;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
 }
