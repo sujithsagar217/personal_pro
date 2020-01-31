@@ -75,29 +75,7 @@ img {
   margin: 10px auto 10px auto;
 }
 
-.contact_button{
-  text-align: center;
-  color: white;
-  background-color: #66BFBF;
-  padding: 10px 15px 10px 15px;
-  margin: 10px;
-  border-radius: 5%;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-}
 
-.contact_button:hover{
-  text-align: center;
-  color: white;
-  background-color: #66BFBF;
-  padding: 10px 15px 10px 15px;
-  margin: 10px;
-  border-radius: 5%;
-  border: 2px solid black;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-}
 
 .profile_pic {
   border-radius: 19%;
@@ -106,11 +84,13 @@ img {
 
 .middle_container {
   background-color: #f1fcfc;
+  margin: 0 0 0 0;
+  padding-bottom: 20px;
 }
 
 .bottom_container {
   background-color: #EAF6F6;
-  margin: 20px 0 0 0;
+  margin: 0 0 0 0;
   padding-top: 10px;
 }
 
@@ -137,19 +117,46 @@ p {
   font-size: 1.3rem;
 }
  .profile{
-   width: 400px;
+   width: 40%;
    margin: 0 auto 0 auto;
  }
-
+.contact_me{
+  width: 40%;
+  margin: 0 auto 0 auto;
+}
 .skills_heading{
   margin: 20px auto 10px auto;
 }
 
 .skills_table{
-  width: 80%;
+  width: 90%;
   margin: 0 auto 0 auto;
 
 }
 td{
   padding: 10px;
+}
+
+.contact_button{
+  text-align: center;
+  color: white;
+  background-color: #66BFBF;
+  padding: 10px 15px 10px 15px;
+  margin: 10px;
+  border-radius: 5%;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.contact_button:hover{
+  text-align: center;
+  color: white;
+  background-color: #66BFBF;
+  padding: 10px 15px 10px 15px;
+  margin: 10px;
+  border-radius: 5%;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
