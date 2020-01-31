@@ -14,40 +14,130 @@ h1 {
 h1+p {
   color: #66BFBF;
   font-size: 2rem;
-  margin: 0 auto 0 auto;
+  margin: 10px auto 0 auto;
   font-weight: normal;
   line-height: normal;
 }
 
 h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+  margin: 20px auto 0 auto;
+  font-weight: normal;
+  line-height: normal;
   font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
   color: #11999E;
+  font-size: 1.5rem;
+  margin: 0 auto 0 auto;
+  font-weight: normal;
+  line-height: normal;
   font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: #deddfa;
+  width: 15%;
 }
 
 a {
   color: #11999E;
 }
 
+img {
+  margin: 0 auto 0 auto;
+}
+
 .top_container {
-  background-color: #9beeff;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 90px;
 }
 
-.middle_container {}
-
-.bottom_container {}
-
-.skill-row {
-  width: 50%;
-  margin: 40px auto 40px auto;
-  line-height: 2;
+.in_contact{
+  margin: 10px auto 10px auto;
 }
 
+.contact_button{
+  text-align: center;
+  color: white;
+  background-color: #66BFBF;
+  padding: 10px 15px 10px 15px;
+  margin: 10px;
+  border-radius: 5%;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.contact_button:hover{
+  text-align: center;
+  color: white;
+  background-color: #66BFBF;
+  padding: 10px 15px 10px 15px;
+  margin: 10px;
+  border-radius: 5%;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.profile_pic {
+  border-radius: 19%;
+  margin: 30px auto 15px auto;
+}
+
+.middle_container {}
+
+.bottom_container {
+  background-color: #EAF6F6;
+  margin: 20px 0 0 0;
+  padding-top: 10px;
+}
+
+p {
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.icons_credit {
+  margin: 20px auto 10px auto;
+}
+
+.footer_link {
+  font-size: 1.3rem;
+  margin: 0 10px 5px 10px;
+}
+
+.footer_link:hover {
+  background: #e1f2fb;
+}
+
+.footer_paragraph{
+  display: inline;
+  font-size: 1.3rem;
+}
+ .profile{
+   width: 400px;
+   margin: 0 auto 0 auto;
+ }
+
+.skills_heading{
+  margin: 20px auto 10px auto;
+}
+
+.skills_table{
+  width: 80%;
+  margin: 0 auto 0 auto;
+
+}
+td{
+  padding: 10px;
+}
 .top-cloud {
   position: absolute;
   right: 300px;
